@@ -13,3 +13,4 @@ class SchoolStudent(models.Model):
     guardian = fields.Char(string='Guardian')
     section_class = fields.Char(string='Section of Class')
     active = fields.Boolean('Active', default=True)
+    image = fields.Binary(string='Image')
