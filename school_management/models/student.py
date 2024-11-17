@@ -12,4 +12,4 @@ class SchoolStudent(models.Model):
     ], string='Gender')
     guardian = fields.Char(string='Guardian')
     section_class = fields.Char(string='Section of Class')
-    student_image = fields.Binary(string='Student Image')
+    active = fields.Boolean('Active', default=True)

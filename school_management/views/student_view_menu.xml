@@ -27,11 +27,11 @@
         <field name="model">school.student</field>
         <field name="arch" type="xml">
             <tree>
-                <field name="name"/>
-                <field name="age"/>
-                <field name="gender"/>
-                <field name="guardian"/>
-                <field name="section_class"/>
+                <field name="name" optional="show"/>
+                <field name="age" optional="show"/>
+                <field name="gender" optional="show"/>
+                <field name="guardian" optional="show"/>
+                <field name="section_class" optional="show"/>
             </tree>
         </field>
     </record>
