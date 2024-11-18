@@ -14,3 +14,5 @@ class SchoolStudent(models.Model):
     section_class = fields.Char(string='Section of Class')
     active = fields.Boolean('Active', default=True)
     image = fields.Binary(string='Image')
+    date_from = fields.Datetime(string='From')
+    date_to = fields.Datetime(string='To')
